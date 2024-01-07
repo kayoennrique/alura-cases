@@ -58,7 +58,7 @@ export default function FAQScreen({ faq }) {
             >
               Não consegue encontrar a resposta que procura? entre em contato com nosso{' '}
               <Link
-                href="mailto:contato@alura.com.br"
+                href="mailto:kayo.ennrique@hotmail.com.br"
                 styleSheet={{
                   color: theme.colors.primary[400],
                   hover: {
