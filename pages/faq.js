@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from '../src/components/Link';
 
 // SSG - Static Site Generation
@@ -20,17 +21,20 @@ export async function getStaticProps() {
         });
 
     return {
-      props: {
-          anything: 'que eu passar aqui',
-          faq,
-      },
+        props: {
+            anything: 'que eu passar aqui',
+            faq,
+        },
     };
-}  
+}
 
 export default function FAQPage({ faq }) {
     console.log('Isso roda no servidor???')
     return (
         <div>
+            <Head>
+                <title>FAQ - Alura Cases</title>
+            </Head>
             <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
             <Link href="/">
                 Ir para a home
