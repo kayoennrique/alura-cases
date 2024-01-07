@@ -1,4 +1,4 @@
-import GlobalStyle from "../src/theme/GlobalStyle";
+import GlobalStyle from '../src/theme/GlobalStyle';
 
 function MyApp({ Component, pageProps }) {
     return (
@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
             <GlobalStyle />
             <Component {...pageProps} />
         </>
-    );
+    )
 }
 
 export default MyApp;

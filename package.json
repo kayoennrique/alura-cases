@@ -6,15 +6,18 @@
   "author": "kayoennrique <138163354+kayoennrique@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "next": "^14.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "export": "next build && next export",
+    "start": "next start",
     "lint": "next lint"
   }
 }
