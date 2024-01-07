@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from '../src/components/Link';
+import PageTitle from '../src/screens/HomeScreen/PageTitle';
 
 // SSG - Static Site Generation
 // SSR - Server Side Rendering
@@ -32,9 +33,7 @@ export default function FAQPage({ faq }) {
     console.log('Isso roda no servidor???')
     return (
         <div>
-            <Head>
-                <title>FAQ - Alura Cases</title>
-            </Head>
+            <PageTitle>FAQ - Alura Cases</PageTitle>
             <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
             <Link href="/">
                 Ir para a home
