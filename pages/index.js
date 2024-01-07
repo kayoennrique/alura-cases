@@ -20,7 +20,7 @@ function Title({ children, as }) {
 export default function HomePage() {
     return (
         <div>
-            <Title as="h1">Alura Cases - Home Page</Title>
+            <Title as="h2">Alura Cases - Home Page</Title>
             <Link href="/faq">Ir para a página do FAQ</Link>
         </div>
     );
